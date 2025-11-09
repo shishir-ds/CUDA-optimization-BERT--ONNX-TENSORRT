@@ -2,7 +2,7 @@ import onnx_graphsurgeon as gs
 import onnx
 import glob
 
-onnx_files = glob.glob("/root/Shishir/model_bs16_seq512.onnx")
+onnx_files = glob.glob("/root/Shishir/CUDA-optimization-BERT--ONNX-TENSORRT/model_bs16_seq512.onnx")
 print("Found ONNX files:", onnx_files)
 
 for onnx_path in onnx_files:
